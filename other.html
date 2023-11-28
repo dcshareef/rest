@@ -1,0 +1,318 @@
+<!-- Food-Items Section
+<section class="foodItems" id="Specials">
+    <div class="container-fluid">
+        <div class="row">
+            <h1 class="heading text-center">Our Specials</h1>
+            <h5 class="text-center">Exquisite Culinary Highlights Await You in Our Specials</h5>
+            <div class="col-6 col-md-3">
+                <div class="foodItem">
+                    <img src="food-img-1.jpg" alt="" class="img-fluid">
+                    <div class="text-wrapper">
+                        <h2>Varaval Mandhi</h2>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="foodItem">
+                    <img src="foodItem-1.jpg" alt="" class="img-fluid">
+                    <div class="text-wrapper">
+                        <h2>Malabar Chicken Biriyani</h2>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="foodItem">
+                    <img src="foodItem-2.jpg" alt="" class="img-fluid">
+                    <div class="text-wrapper">
+                        <h2>Mutton Biriyani</h2>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="foodItem">
+                    <img src="food-img-2.jpg" alt="" class="img-fluid">
+                    <div class="text-wrapper">
+                        <h2>Ghee Rice</h2>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="foodItem">
+                    <img src="food-img-3.jpg" alt="" class="img-fluid">
+                    <div class="text-wrapper">
+                        <h2>Vegetable fried rice</h2>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="foodItem">
+                    <img src="food-img-4.jpg" alt="" class="img-fluid">
+                    <div class="text-wrapper">
+                        <h2>Tomato Rice</h2>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Categories Section -->
+<!-- <section class="categories">
+    <div class="container-fluid">
+        <div class="row"><h1 class="heading text-center">Menu Categories</h1>
+            <h5 class="text-center">Explore our diverse categories for a culinary adventure that suits every taste bud.</h5>
+            <div class="col-12 col-md-4"></div>
+        </div>
+    </div>
+</section> -->
+
+
+
+
+
+
+<!-- /* Food-Items Section starts here */
+section.foodItems {
+    height: 100%;
+    padding: 60px 90px;
+    color: #ffffff;
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    z-index: 0;
+}
+section.foodItems .foodItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgba(255,255,255,0.1);
+    margin: 40px 0px;
+    border-radius: 10px;
+}
+section.foodItems h1.heading {
+    font-size: clamp(30px, 3.5vw, 10rem);
+}
+section.foodItems h5 {
+    font-size: clamp(14px, 2vw, 1.3rem);
+    font-weight: 200;
+    color: #efeeed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section.foodItems .foodItem img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+section.foodItems .foodItem .text-wrapper {
+    padding: 10px 0px 5px;
+}
+section.foodItems .foodItem h2 {
+    font-size: clamp(15px, 1.3vw, 3rem);
+    font-weight: 300;
+}
+section.foodItems .foodItem button {
+    position: absolute;
+    bottom: -25px;
+    right: 10px;
+    height: 40px;
+    width: 40px;
+    border: 0;
+    border-radius: 5px;
+    transition: 200ms;
+}
+section.foodItems .foodItem button:hover {
+    background-color: #e7cc5f;
+}
+/* Food-Items Section ends */
+
+
+
+
+/* Categories Section starts here */
+section.categories {
+    height: 100%;
+    padding: 0px 90px 60px;
+    color: #ffffff;
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+section.categories h1.heading {
+    font-size: clamp(30px, 3.5vw, 10rem);
+}
+section.categories h5 {
+    font-size: clamp(14px, 2vw, 1.3rem);
+    font-weight: 200;
+    color: #efeeed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} -->
+
+
+
+
+
+<!-- @media(max-width: 1300px) {
+    /* Footer */
+    footer .footer-links p {
+        line-height: 1;
+        display: block;
+    }
+}
+@media(max-width: 1024px) {
+    /* Hero-Section */
+    section.heroSection h2 {
+        text-align: center;
+    }
+
+    /* Food-Items Section */
+    section.foodItems {
+        padding: 30px 40px;
+    }
+
+    section.foodItems .foodItem img {
+        height: 120px;
+    }
+
+    /* Categories Section starts here */
+    section.categories {
+        padding: 0px 40px 40px;
+    }
+}
+
+
+
+@media(max-width: 768px) {
+    /* Hero-Section */
+    section.heroSection {
+        background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('food-img-5.jpg') 10% 60%/cover no-repeat;
+        min-height: 70vh;
+    }
+    section.heroSection button {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    /* Food-Items Section */
+    section.foodItems {
+        padding: 30px 40px;
+        height: 100%;
+        min-height: 0;
+    }
+    section.foodItems .foodItem {
+        margin: 20px 0px;
+    }
+
+    /* Categories Section starts here */
+    section.categories h1 {
+        line-height: 1.1;
+    }
+
+    /* Footer */
+    footer {
+        padding: 50px 0px 20px;
+    }
+    footer .footer-links p {
+        line-height: 1;
+        display: inline;
+    }
+    footer .footer-logo {
+        margin: 35px 0px;
+    }
+    footer .socialIcons span {
+        font-size: 19px;
+    }
+    footer .socialIcons a {
+        margin: 10px;
+    }
+    footer .copyright {
+        padding: 50px 0px 0px;
+    }
+}
+
+@media(max-width: 576px) {
+    /* Hero-Section */
+    section.heroSection {
+        min-height: 55vh;
+    }
+    section.heroSection .textWrapper {
+        margin-top: 60px;
+        padding: 0px 20px;
+    }
+    section.heroSection h1 {
+        margin-top: 0px;
+        text-align: left;
+    }
+    section.heroSection h2 {
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    section.heroSection p {
+        font-size: 14px;
+        text-align: left;
+    }
+    section.heroSection .buttonWrapper {
+        text-align: left;
+    }
+    section.heroSection button {
+        border-radius: 15px;
+        height: 35px;
+        color: #ffffff;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    /* Food-Items Section */
+    section.foodItems {
+        padding: 30px 10px 50px;
+    }
+    section.foodItems .foodItem {
+        margin: 15px 0px;
+    }
+    section.foodItems .foodItem img {
+        height: 120px;
+    }
+    section.foodItems .foodItem button {
+        bottom: -20px;
+        right: 10px;
+        height: 33px;
+        width: 33px;
+    }
+
+    /* Categories Section starts here */
+    section.categories {
+        padding: 0px 10px 30px;
+    }
+
+    /* footer */
+    footer .copyright {
+        padding: 40px 0px 0px;
+    }
+}
+
+
+@media(max-width: 400px) {
+    /* Hero-Section */
+    section.heroSection button {
+        letter-spacing: 0.3px;
+        border-radius: 10px;
+    }
+
+    /* Food-Items Section */
+    section.foodItems .foodItem img {
+        height: 100px;
+    }
+    section.foodItems .foodItem .text-wrapper {
+        text-align: center;
+    }
+    section.foodItems .foodItem button {
+        top: 10px;
+    }
+} -->
